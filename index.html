@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<head>
+  <link type='text/css' rel='stylesheet' href='css.css'>
+</head>
+
+<body onload='load()'>
+  <main>
+    <h1>Inferno Sux</h1>
+    <a href='https://oldschool.runescape.wiki/w/Inferno' target='blank'>-WIKI-</a>
+    <div id='checkboxes'>
+      <button onclick="reset()">Reset</button><br>
+      <p class='heart'>♥</p>
+      <p>Emily says:: Check your death runes, darts, and scales!</p>
+      <p>MAKE SURE YOU'RE ACTUALLY WEARING/HAVE EVERYTHING, NERD</p>
+      <p class='heart'>♥</p>
+      <input type="checkbox" class='checkbox' id='1' name='1'>
+      <label for='1'>Wave 1: 3x Nibbler, 1x Bat</label><br>
+      <input type="checkbox" class='checkbox' id='2' name='2'>
+      <label for='2'>Wave 2: 3x Nibbler, 2x Bat</label><br>
+      <input type="checkbox" class='checkbox' id='3' name='3'>
+      <label for='3'>Wave 3: 6x Nibbler</label><br>
+      <h2>-BLOBS-</h2>
+      <input type="checkbox" class='checkbox' id='4' name='4'>
+      <label for='4'>Wave 4: 3x Nibbler, 1x Blob</label><br>
+      <input type="checkbox" class='checkbox' id='5' name='5'>
+      <label for='5'>Wave 5: 3x Nibbler, 1x Bat, 1x Blob</label><br>
+      <input type="checkbox" class='checkbox' id='6' name='6'>
+      <label for='6'>Wave 6: 3x Nibbler, 2x Bat, 1x Blob</label><br>
+      <input type="checkbox" class='checkbox' id='7' name='7'>
+      <label for='7'>Wave 7: 3x Nibbler, 2x Blob</label><br>
+      <input type="checkbox" class='checkbox' id='8' name='8'>
+      <label for='8'>Wave 8: 6x Nibbler </label><br>
+      <h2>-MELEE-</h2>
+      <input type="checkbox" class='checkbox' id='9' name='9'>
+      <label for='9'>Wave 9: 3x Nibbler, 1x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='10' name='10'>
+      <label for='10'>Wave 10: 3x Nibbler, 1x Bat, 1x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='11' name='11'>
+      <label for='11'>Wave 11: 3x Nibbler, 2x Bat, 1x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='12' name='12'>
+      <label for='12'>Wave 12: 3x Nibbler, 1x Blob, 1x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='13' name='13'>
+      <label for='13'>Wave 13: 3x Nibbler, 1x Bat, 1x Blob, 1x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='14' name='14'>
+      <label for='14'>Wave 14: 3x Nibbler, 2x Bat, 1x Blob, 1x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='15' name='15'>
+      <label for='15'>Wave 15: 3x Nibbler, 2x Blob, 1x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='16' name='16'>
+      <label for='16'>Wave 16: 3x Nibbler, 2x Melee</label><br>
+      <input type="checkbox" class='checkbox' id='17' name='17'>
+      <label for='17'>Wave 17: 6x Nibbler </label><br>
+      <h2>-RANGERS-</h2>
+      <input type="checkbox" class='checkbox' id='18' name='18'>
+      <label for='18'>Wave 18: 3x Nibbler, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='19' name='19'>
+      <label for='19'>Wave 19: 3x Nibbler, 1x Bat, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='20' name='20'>
+      <label for='20'>Wave 20: 3x Nibbler, 2x Bat, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='21' name='21'>
+      <label for='21'>Wave 21: 3x Nibbler, 1x Blob, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='22' name='22'>
+      <label for='22'>Wave 22: 3x Nibbler, 1x Bat, 1x Blob, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='23' name='23'>
+      <label for='23'>Wave 23: 3x Nibbler, 2x Bat, 1x Blob, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='24' name='24'>
+      <label for='24'>Wave 24: 3x Nibbler, 2x Blob, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='25' name='25'>
+      <label for='25'>Wave 25: 3x Nibbler, 1x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='26' name='26'>
+      <label for='26'>Wave 26: 3x Nibbler, 1x Bat, 1x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='27' name='27'>
+      <label for='27'>Wave 27: 3x Nibbler, 2x Bat, 1x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='28' name='28'>
+      <label for='28'>Wave 28: 3x Nibbler, 1x Blob, 1x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='29' name='29'>
+      <label for='29'>Wave 29: 3x Nibbler, 1x Bat, 1x Blob, 1x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='30' name='30'>
+      <label for='30'>Wave 30: 3x Nibbler, 2x Bat, 1x Blob, 1x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='31' name='31'>
+      <label for='31'>Wave 31: 3x Nibbler, 2x Blob, 1x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='32' name='32'>
+      <label for='32'>Wave 32: 3x Nibbler, 2x Melee, 1x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='33' name='33'>
+      <label for='33'>Wave 33: 3x Nibbler, 2x Ranger</label><br>
+      <input type="checkbox" class='checkbox' id='34' name='34'>
+      <label for='34'>Wave 34: 6x Nibbler </label><br>
+      <h2>-MAGERS-</h2>
+      <input type="checkbox" class='checkbox' id='35' name='35'>
+      <label for='35'>Wave 35: 3x Nibbler, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='36' name='36'>
+      <label for='36'>Wave 36: 3x Nibbler, 1x Bat, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='37' name='37'>
+      <label for='37'>Wave 37: 3x Nibbler, 2x Bat, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='38' name='38'>
+      <label for='38'>Wave 38: 3x Nibbler, 1x Blob, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='39' name='39'>
+      <label for='39'>Wave 39: 3x Nibbler, 1x Bat, 1x Blob, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='40' name='40'>
+      <label for='40'>Wave 40: 3x Nibbler, 2x Bat, 1x Blob, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='41' name='41'>
+      <label for='41'>Wave 41: 3x Nibbler, 2x Blob, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='42' name='42'>
+      <label for='42'>Wave 42: 3x Nibbler, 1x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='43' name='43'>
+      <label for='43'>Wave 43: 3x Nibbler, 1x Bat, 1x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='44' name='44'>
+      <label for='44'>Wave 44: 3x Nibbler, 2x Bat, 1x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='45' name='45'>
+      <label for='45'>Wave 45: 3x Nibbler, 1x Blob, 1x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='46' name='46'>
+      <label for='46'>Wave 46: 3x Nibbler, 1x Bat, 1x Blob, 1x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='47' name='47'>
+      <label for='47'>Wave 47: 3x Nibbler, 2x Bat, 1x Blob, 1x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='48' name='48'>
+      <label for='48'>Wave 48: 3x Nibbler, 2x Blob, 1x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='49' name='49'>
+      <label for='49'>Wave 49: 3x Nibbler, 2x Melee, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='50' name='50'>
+      <label for='50'>Wave 50: 3x Nibbler, 1x Ranger, 1x Mage</label><br>
+      <p>You're doing great ♥ </p>
+      <input type="checkbox" class='checkbox' id='51' name='51'>
+      <label for='51'>Wave 51: 3x Nibbler, 1x Bat, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='52' name='52'>
+      <label for='52'>Wave 52: 3x Nibbler, 2x Bat, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='53' name='53'>
+      <label for='53'>Wave 53: 3x Nibbler, 1x Blob, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='54' name='54'>
+      <label for='54'>Wave 54: 3x Nibbler, 1x Bat, 1x Blob, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='55' name='55'>
+      <label for='55'>Wave 55: 3x Nibbler, 2x Bat, 1x Blob, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='56' name='56'>
+      <label for='56'>Wave 56: 3x Nibbler, 2x Blob, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='57' name='57'>
+      <label for='57'>Wave 57: 3x Nibbler, 1x Melee, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='58' name='58'>
+      <label for='58'>Wave 58: 3x Nibbler, 1x Bat, 1x Melee, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='59' name='59'>
+      <label for='59'>Wave 59: 3x Nibbler, 2x Bat, 1x Melee, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='60' name='60'>
+      <label for '60'>Wave 60: 3x Nibbler, 1x Blob, 1x Melee, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='61' name='61'>
+      <label for='61'>Wave 61: 3x Nibbler, 1x Bat, 1x Blob, 1x Melee, 1x Ranger, 1x Mage</label><br>
+      <input type="checkbox" class='checkbox' id='62' name='62'>
+      <label for='62'>Wave 62: 3x Nibbler, 2x Bat, 1x Blob, 1x Melee, 1x Ranger, 1x Mage</label><br>      
+      <input type="checkbox" class='checkbox' id='63' name='63'>
+      <label for='63'>Wave 63: 3x Nibbler, 2x Blob, 1x Melee, 1x Ranger, 1x Mage</label><br>     
+      <input type="checkbox" class='checkbox' id='64' name='64'>
+      <label for='64'>Wave 64: 3x Nibbler, 2x Melee, 1x Ranger, 1x Mage</label><br>     
+      <input type="checkbox" class='checkbox' id='65' name='65'>
+      <label for='65'>Wave 65: 3x Nibbler, 2x Ranger, 1x Mage</label><br>      
+      <input type="checkbox" class='checkbox' id='66' name='66'>
+      <label for='66'>Wave 66: 3x Nibbler, 2x Mage </label><br>      
+      <input type="checkbox" class='checkbox' id='67' name='67'>
+      <label for='67'>EZ JAD</label><br>    
+      <h2>Logout!</h2>
+      <h4 class="breathe">Breathe</h4>
+      <h4 class="o">:O</h4>
+      <h4 class="oo">:o~</h4>
+      <input type="checkbox" class='checkbox' id='68' name='68'>
+      <label for='68'>TRIPLE JAD D:</label><br>     
+      <input type="checkbox" class='checkbox' id='69' name='69'>
+      <label for='69'>ZZUUKK D: D: D:</label><br>
+      
+      <button onclick="reset()">Reset</button><br>
+    </div>
+  </main>
+  <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="waves.js"></script>
+</body>
+  

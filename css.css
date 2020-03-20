@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  background-image: url("lava.bmp");
+  color: white;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+a {
+  margin-top: 0;
+  color: white;
+  width: 100%;
+  text-align: right;
+}
+
+a:hover {
+  color: pink;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+label {
+  text-decoration: underline;
+  text-decoration-color: rgb(117, 0, 0);  
+}
+
+#checkboxes {
+  width: 95%;
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+#checkboxes p {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#checkboxes .heart {
+  text-decoration: none;
+}
+
+#checkboxes button {
+  width: 100%;
+  margin: auto;
+}
+
+#checkboxes h2, h4 {
+  width: 100%;
+  text-align: center;
+}
+
+.breathe {
+  margin-bottom: 5px;
+}
+
+.o {
+  margin: 5px auto;
+}
+
+.oo {
+  margin-top: 3px;
+}
